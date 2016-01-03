@@ -1,12 +1,35 @@
-# Site settings
 title: Jake Gavin
-email: jakegavin@gmail.com
 description: >
   Jake Gavin is a software developer at Planning Center Online in Seattle, WA.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jakegavin.net" # the base hostname & protocol for your site
+
+markdown: redcarpet
+highlighter: pygments
+gems: [jekyll-paginate]
+paginate: 5
+
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+
+social:
+   github: jakegavin
+   twitter: jake_gavin
+   facebook: jakegavin
+   email: jakegavin@gmail.com
+
+google_analytics: ""
+
+# Jekyll Defaults
+email: jakegavin@gmail.com
 twitter_username: jake_gavin
 github_username:  jakegavin
-
-# Build settings
-markdown: kramdown
+# markdown: kramdown
