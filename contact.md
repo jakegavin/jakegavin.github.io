@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: Contact Long Haul
+permalink: /contact/
 ---
 
 <div id="contact">
