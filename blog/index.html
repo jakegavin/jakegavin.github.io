@@ -4,8 +4,14 @@ title: Blog
 permalink: /blog/
 ---
 
-<div id="post">
-  <h1 class="pageTitle">Recent Posts</h1>
+<div class="post">
+  <h3 class="pageTitle">Blog</h3>
+  <p class="description">
+    Still working on the blog posts. I have a few drafts in progress. Hopefully I'll finish
+    them up soon.
+  </p>
+  <!---
+  <h3 class="pageTitle">Recent Posts</h3>
   <ul class="posts noList">
     {% for post in paginator.posts %}
       <li>
@@ -15,7 +21,7 @@ permalink: /blog/
       </li>
     {% endfor %}
   </ul>
-  <!-- Pagination links -->
+
   <div class="pagination">
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a>
@@ -24,4 +30,5 @@ permalink: /blog/
       <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
     {% endif %}
   </div>
+  --->
 </div>
