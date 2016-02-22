@@ -2,7 +2,7 @@ title: Jake Gavin
 description: >
   Jake Gavin is a software developer at Planning Center Online in Seattle, WA.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://jakegavin.net" # the base hostname & protocol for your site
+url: "https://jakegavin.net" # the base hostname & protocol for your site
 
 markdown: redcarpet
 highlighter: pygments
@@ -16,12 +16,10 @@ permalink: blog/:title/
 navigation:
  - title: Home
    url: /index.html
- - title: Blog
-   url: /blog
  - title: About
    url: /about
- - title: Contact
-   url: /contact
+ - title: Blog
+   url: /blog
 
 social:
    github: jakegavin
